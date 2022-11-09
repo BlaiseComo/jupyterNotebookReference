@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: 
+Cflags: -I/Users/blaisecomo/Documents/jupyterNotebookReference/please_work_pandas/env/include
+Libs: -L/Users/blaisecomo/Documents/jupyterNotebookReference/please_work_pandas/env/lib -lpq
+Libs.private: -L/Users/blaisecomo/Documents/jupyterNotebookReference/please_work_pandas/env/lib -lpgcommon -lpgport -lssl -lcrypto -lgssapi_krb5 -lm
