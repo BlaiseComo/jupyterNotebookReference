@@ -1,0 +1,13 @@
+prefix=/Users/blaisecomo/Documents/jupyterNotebookReference/personal_project_1/env
+exec_prefix=/Users/blaisecomo/Documents/jupyterNotebookReference/personal_project_1/env
+libdir=/Users/blaisecomo/Documents/jupyterNotebookReference/personal_project_1/env/lib
+sharedlibdir=/Users/blaisecomo/Documents/jupyterNotebookReference/personal_project_1/env/lib
+includedir=/Users/blaisecomo/Documents/jupyterNotebookReference/personal_project_1/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
