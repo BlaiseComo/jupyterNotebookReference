@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: 
+Cflags: -I/Users/blaisecomo/Documents/jupyterNotebookReference/env_for_course/env/include
+Libs: -L/Users/blaisecomo/Documents/jupyterNotebookReference/env_for_course/env/lib -lpgtypes
+Libs.private: -L/Users/blaisecomo/Documents/jupyterNotebookReference/env_for_course/env/lib -lpgcommon -lpgport -lm
